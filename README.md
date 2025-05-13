@@ -1,7 +1,7 @@
 # -Implement-real-time-object-detection-using-Python-OpenCV-
 1. Problem Understanding
 The objective of this project is to build a real-time object detection system that can detect human facial features (faces and eyes) and colored objects using a webcam. The system provides three detection modes: Face Detection using Haar Cascade Classifiers, Color Detection using HSV Thresholding, and a combination of both. The application is developed with OpenCV and Tkinter, enabling a user-friendly interface with live video, mode switching, FPS calculation, and snapshot functionality.
-2. Chosen Methods + Justifications
+2. Chosen Methods + Justifications  
 •	Haar Cascade for Face and Eye Detection:
 Haar Cascade is a machine learning-based method trained with positive and negative images to detect objects like faces and eyes. It is chosen for its speed and reasonable accuracy in detecting frontal faces and eyes in real-time.
 •	Color Thresholding in HSV Space:
